@@ -7,7 +7,6 @@ import numpy as np
 import pandas as pd
 import requests
 
-API_KEY = 'xxx'
 thread_lock = threading.Lock()
 AUCTION_DATA = {}
 last_updated_old = 0
